@@ -28,4 +28,35 @@ ___
 **Session 1:** 理解现状 (What's happened to our country)
 
 * 使用 Telegram
-* 做一个 Telegram bot 来了解什么是 chat bot
+* 做一个 Telegram bot 来了解什么是 chatbot
+
+
+**Session 2:** 尝试调用 QQ 机器人接口 (Hacking Tencent by seeking others help)
+
+* 了解 QQ 机器人的前世今生
+* 选择一个最稳定的方案并应用
+
+
+**Session 3:** 组合 Telegram 与 QQ (Connecting QQ with Telegram)
+
+* 把 QQ 消息和 Telegram 消息转发到服务器终端
+
+
+**Session 4:** 用 web 技术展示后端的消息 (Show your messages using a website)
+
+* 尝试做一个 website 用于显示终端被汇总的及时消息
+
+
+**Session 5:** 总控 (Control your messages)
+
+* 用自定义规则的形式，实现在 web page 上对消息进行处理或对功能进行调用
+
+
+**Session 6:** 构建聊天机器人 (import a chatbot)
+
+* 选择一个聊天机器人框架， 将其导入进我们的框架
+
+
+**Session 7:** 测试 (Testing, improving)
+
+* 发挥想象力去完善该全平台聊天机器人系统
