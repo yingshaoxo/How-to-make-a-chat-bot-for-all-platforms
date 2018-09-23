@@ -25,7 +25,7 @@ ___
 
 ## Curriculum
 
-**Session 1:** 理解现状 (What's happened to our country)
+**Session 1:** 理解现状 (What's happened to me)
 
 * 使用 Telegram
 * 做一个 Telegram bot 来了解什么是 chatbot
