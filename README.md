@@ -15,6 +15,7 @@ ___
 **学习前提**
 * Python3
 * Basic Linux commands
+* Know how to get global Internet access
 * And the most important thing is: have the desire to learn
 
 **目标人群**
