@@ -1,9 +1,15 @@
+from king_chat import Client
+
+client = Client(name="telegram", ip="182.254.242.181", port=5920)
+client.start(wait=False)
+
+
 from telegram.ext import Updater
 
-updater = Updater(token='TOKEN')
+updater = Updater(token='684605925:AAFtHdx9p2Hi8vzFNC5dFV2qshwKLw0y0lA')
 dispatcher = updater.dispatcher
 
-
+"""
 def start_function(bot, update):
     bot.send_message(
         chat_id=update.message.chat_id, 
@@ -13,9 +19,10 @@ def start_function(bot, update):
 from telegram.ext import CommandHandler
 start_handler = CommandHandler('start', start_function)
 dispatcher.add_handler(start_handler)
-
+"""
 
 def echo(bot, update):
+    client.send(update.message.text)
     bot.send_message(chat_id=update.message.chat_id, text=update.message.text)
 
 from telegram.ext import MessageHandler, Filters
