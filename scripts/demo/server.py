@@ -8,4 +8,6 @@ def handle(protocol, text):
     print(text)
     protocol.send_to_all_except_sender(text)
 
-server.start(wait=True)
+server.start(wait=False)
+while 1:
+    server.send_to_one(name='telegram', text=input('words: '))
